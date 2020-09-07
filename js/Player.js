@@ -7,8 +7,8 @@ function Player(img) {
     this.heigth = 32;
     this.srcX = this.width;
     this.srcY = 0;
-    this.posX = 0;
-    this.posY = 0;
+    this.posX = 64;
+    this.posY = 64;
     this.img = img;
     this.speed = 1;
     this.timeFrameAnimation = 8;
